@@ -1,0 +1,10 @@
+# Database connection - replace with your real credentials
+DB_USER=app_user
+DB_PASSWORD=change_me_in_prod
+DB_HOST=db.local
+DB_PORT=5432
+DB_NAME=sales_db
+
+# API endpoints - replace with your actual stores
+SHOPIFY_API_URL=https://yourstore.myshopify.com/admin/api/2024-01/orders.json
+WOOCOMMERCE_API_URL=https://yourstore.com/wp-json/wc/v3/orders
